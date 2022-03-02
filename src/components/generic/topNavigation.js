@@ -53,9 +53,9 @@ function TopNavigation() {
               anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
               transformOrigin={{ vertical: 'top', horizontal: 'center' }}
             >
-              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-5 cursor-pointer hover:transition hover:delay-100 ease-in-out' onClick={aboutUsState.close}>WHO WE ARE?</div>
-              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-5 cursor-pointer hover:transition hover:delay-100 ease-in-out' onClick={aboutUsState.close}>OUR GOALS</div>
-              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-5 cursor-pointer hover:transition hover:delay-100 ease-in-out' onClick={aboutUsState.close}>OUR TEAM</div>
+              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-8 cursor-pointer hover:transition duration-200 hover:translate-x-3 ease-in-out' onClick={aboutUsState.close}>WHO WE ARE?</div>
+              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-8 cursor-pointer hover:transition duration-200 hover:translate-x-3 ease-in-out' onClick={aboutUsState.close}>OUR GOALS</div>
+              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-8 cursor-pointer hover:transition duration-200 hover:translate-x-3 ease-in-out' onClick={aboutUsState.close}>OUR TEAM</div>
             </HoverMenu>
           </div>
 
@@ -70,9 +70,9 @@ function TopNavigation() {
               anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
               transformOrigin={{ vertical: 'top', horizontal: 'center' }}
             >
-              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-5 cursor-pointer hover:transition hover:delay-100 ease-in-out' onClick={donateState.close}>BLOGS</div>
-              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-5 cursor-pointer hover:transition hover:delay-100 ease-in-out' onClick={donateState.close}>EVENTS</div>
-              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-5 cursor-pointer hover:transition hover:delay-100 ease-in-out' onClick={donateState.close}>VOLUNTEER</div>
+              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-8 cursor-pointer hover:transition duration-200 hover:translate-x-3 ease-in-out' onClick={donateState.close}>BLOGS</div>
+              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-8 cursor-pointer hover:transition duration-200 hover:translate-x-3 ease-in-out' onClick={donateState.close}>EVENTS</div>
+              <div className='text-gray-600 font-poppins text-base font-bold hover:text-cyan-500 py-3 px-8 cursor-pointer hover:transition duration-200 hover:translate-x-3 ease-in-out' onClick={donateState.close}>VOLUNTEER</div>
             </HoverMenu>
           </div>
 
